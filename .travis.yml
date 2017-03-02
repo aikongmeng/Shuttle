@@ -19,7 +19,7 @@ android:
   - google-gdk-license-.+
   - ".+"
 script:
-- "./gradlew build connectedCheck"
+- "./gradlew build"
 
 before_install:
 - mkdir "$ANDROID_HOME/licenses" || true
